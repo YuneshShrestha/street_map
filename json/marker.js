@@ -7,13 +7,13 @@ let markerJson={
           "color": "#7e7e7e",
           "size": "medium",
           "symbol": "",
-          "location": "katari"
+          "location": "Barber"
         },
         "geometry": {
           "type": "Point",
           "coordinates": [
-            86.23168945312499,
-            27.010196431931526
+            87.28507474064827,
+            26.816602522807756
           ]
         }
       },
@@ -23,13 +23,13 @@ let markerJson={
           "color": "#7e7e7e",
           "size": "medium",
           "symbol": "",
-          "location": "kavrae"
+          "location": "Driver"
         },
         "geometry": {
           "type": "Point",
           "coordinates": [
-            85.6109619140625,
-            27.522886832325796
+            87.28531077504158,
+            26.81695440368753
           ]
         }
       },
@@ -39,13 +39,13 @@ let markerJson={
           "color": "#7e7e7e",
           "size": "medium",
           "symbol": "",
-          "location": "Hetauda Street"
+          "location": "Ram"
         },
         "geometry": {
           "type": "Point",
           "coordinates": [
-            85.02319335937499,
-            27.364449817684083
+            87.28525847196579,
+            26.815902348419986
           ]
         }
       },
@@ -55,13 +55,13 @@ let markerJson={
           "color": "#7e7e7e",
           "size": "medium",
           "symbol": "",
-          "location": "Damauli Street Nepal"
+          "location": "Hari"
         },
         "geometry": {
           "type": "Point",
           "coordinates": [
-            84.39697265625,
-            28.13981591275445
+            87.28516593575478,
+            26.81530629912277
           ]
         }
       },
@@ -71,13 +71,13 @@ let markerJson={
           "color": "#7e7e7e",
           "size": "medium",
           "symbol": "",
-          "location": "Darbang Street Nepal"
+          "location": "Gita"
         },
         "geometry": {
           "type": "Point",
           "coordinates": [
-            83.3477783203125,
-            28.442128910370474
+            87.28610739111899,
+            26.816681516569755
           ]
         }
       }
