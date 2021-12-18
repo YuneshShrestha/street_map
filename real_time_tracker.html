@@ -60,7 +60,7 @@
          marker = L.marker([lat,lang]);
          circle = L.circle([lat,lang],{radius: accuracy});
          featureGroup = L.featureGroup([marker,circle]).addTo(map);
-         map.fitBounds(featureGroup.getBounds());
+        //  map.fitBounds(featureGroup.getBounds());
          console.log("Latitude:" + lat + " Longitude:" + lang + " Accuracy:" + accuracy);
        }
     </script>
