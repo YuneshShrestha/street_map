@@ -13,7 +13,7 @@
         }
         #map{
             width: 100%;
-            height: 100vh;
+            height: 50vh;
         }
 
     </style>
@@ -24,16 +24,22 @@
 </head>
 <body>
     <div id="map"></div>
+    <p id="lat"></p>
+    <p id="long"></p>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
     <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.76.0/dist/L.Control.Locate.min.js" charset="utf-8"></script>
     <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
     <script>
         var map = L.map('map').setView([51.505, -0.09], 13);
+        var startMarker = L.layerGroup();
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
+        // Get searched item
+        var data = L.Control.geocoder().addTo(map);
+        console.log(data);
+        // Get Current Location
         L.control.locate().addTo(map);
-        L.Control.geocoder().addTo(map);
     </script>
 </body>
 </html>
